@@ -130,3 +130,6 @@ git rebase master feature-branch
 When you run `git rebase master feature-branch`, Git applies each commit from `feature-branch` one by one on top of the latest commit in `master`. This results in a linear history without the merge commits that you would get with `git merge`. It's a way to incorporate changes from one branch into another, creating a cleaner and more linear history.
 
 This exercise provides a hands-on experience with Git commands and showcases the power of rebasing for maintaining a clean and organized commit history.
+
+![Showing The Difference between two branch](image.png)
+![Showing rebasing of feature branch Onto master branch and difference between both the branch ](image-1.png)
